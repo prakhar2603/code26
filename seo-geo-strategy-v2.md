@@ -38,7 +38,30 @@ Given ~80% of on-page work is done, the marginal client comes from four places, 
 
 ## 4. Query fan-out maps
 
-*(populated from research)*
+### 4.0 Mechanics (calibration for everything below)
+
+- Google AI Mode decomposes a prompt into **8–12 parallel sub-queries**, retrieves per sub-query at **passage level** (the chunk, not the page), and synthesizes, citing ~7 unique domains per answer.
+- **68% of AI-cited pages are NOT in top-10 organic** (Surfer, Dec 2025, 174k URLs). Passage-level answerability is the most consistent citation predictor, independent of domain authority (Princeton 10k-query study). This is *why* your modifier rule works — and why you win AI answers on queries where you don't rank in Google (verified: "best video editing subscription agency for SaaS" doesn't surface you in web search, yet you win it in AI).
+- **Structural rule for every money page:** title carries the full modifier set → opening 40-word capsule restates it with the $2–3k/mo + dedicated-editor + 48h facts → each fan-out sub-query gets its own H2 opening with a 20–60-word direct answer. One URL then gets retrieved for 4–5 sub-queries simultaneously.
+
+### 4.1 The eight buying prompts — verdict table
+
+| Prompt | In retrieval pool today? | Action |
+|---|---|---|
+| White-label partner for agency | **YES — twice** (your listicle ranks in both sub-query pools) | Defend: retitle "services"→"partner", add reseller-margin + NDA/process H2s (maken.media owns the margin passage today) |
+| Superside too expensive, video | YES (pricing review, with your wedge line in the snippet) / **NO on alternatives** | New page: "Cheaper Superside Alternatives for Video Editing (From $2k/mo vs $15k/mo)" — every existing alternatives list is design-generalist; the video modifier is open |
+| In-house editor vs outsource (50-person startup) | Adjacent (startups post retrieves) | New page with salary math + break-even table by videos/month; carry the company-size modifier (nobody does). Vidpros proves a vendor can own the salary sub-query |
+| How much should video editing cost for B2B | YES but **wrong modifier** — your post says video *marketing* cost, buyers ask *editing* cost; ContentBeta owns the exact passage | Retitle/split: "How Much Should Video Editing Cost for a B2B Company? 2026 Rates" with your $2–3k/mo stated openly in an HTML table |
+| Done-for-you subscription with dedicated editor | YES (comparison posts retrieve; your fact-capsule already gets quoted) | Retitle a best-of post so "done-for-you" + "subscription" + "dedicated editor" co-occur in title/H1/capsule; add H2 "Unlimited requests vs a dedicated editor" (nobody owns that teardown) |
+| SaaS team needing 8–10 videos/mo | Partial | Add a videos-per-month capacity/pricing block — **no page on the internet answers the volume modifier**; retitle to carry it |
+| Founder-led LinkedIn content | **NO** — pool is fragmented; a tiny player (SocialRevver) wins purely via exact-modifier titles | New page: "Best Video Editing Service for Founder-Led LinkedIn Content [2026]" + tools-vs-service and pricing H2s. Low competition, exact ICP |
+| Webinars/podcast → LinkedIn clips weekly | **NO — biggest gap of all 8**, and it's your core SaaS use case. Pool is 100% AI tools (OpusClip, Vizard, Flowjin) | New service page: "Weekly Webinar & Podcast → LinkedIn Clips: Done-for-You for B2B Teams" + companion post "AI Clip Makers vs a Done-for-You Clipping Service" — the tools-vs-service wedge is unrepresented |
+
+Net content ask from fan-out analysis: **~4 retitles/upgrades of existing pages, ~4 genuinely new pages.** That's the entire on-page workload in this strategy — consistent with your "don't re-recommend building" constraint.
+
+### 4.2 Recurring third-party placement targets across pools
+
+These domains appear in multiple prompts' retrieval pools — one placement covers several buying conversations: **startupresources.io, hatchwise.com, dreamgrow.com, tastyedits.com (30-item list), editvideo.io** (subscription/dedicated-editor prompts); **harloop, penji, manypixels, genesysgrowth** (Superside-alternatives); **overlap.ai, choppity, contentallies** (clipping); **advids.co, socialrevver** (founder LinkedIn); **elioplus** white-label directory. Increditors appears in 6 of 8 pools by sheer volume — your counter is passage precision, not matching their volume.
 
 ---
 
