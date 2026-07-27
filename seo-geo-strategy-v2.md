@@ -34,7 +34,44 @@ Given ~80% of on-page work is done, the marginal client comes from four places, 
 
 ## 3. Competitor AI-citation benchmark
 
-*(populated from research)*
+### 3.1 Shape of the retrieval pools (10 buying prompts benchmarked)
+
+**~70% of the retrieval pool is competitor-owned listicles you can't get into** — Increditors appears in 6 of 10 prompt pools, Shootsta 3, Tasty Edits 3, Vidpros 2. The winnable ~30% is a short, specific list of doors, each with a known mechanic:
+
+| Door | Feeds which prompts | Mechanic | Cost |
+|---|---|---|---|
+| **startupresources.io** ("9 Best Unlimited VE Services") | startups, unlimited-editing | **Confirmed open submission form** (About page / email) | Free — do day 1 |
+| **Clutch post-production + city categories** | white-label, city prompts, agency prompts | Free profile (claimed) + verified reviews drive ranking; sponsored tier optional. Only ~12–15 reviews plausibly wins the category (counts are tiny in this niche) | Reviews effort |
+| **Dreamgrow** ("10 Best Unlimited VE Services") | unlimited/worth-it | **Affiliate-monetized site** — inclusion is a commercial transaction: launch a referral/affiliate program, pitch the editor | Commission % |
+| **Hatchwise** (best-unlimited list + per-service review pages) | subscription/unlimited | Independent (not a VE competitor); publishes standalone per-service reviews — pitch a Pixel8 review + trial access | Outreach + trial |
+| **Videodeck** ("15 Best B2B SaaS Video Production Agencies") | B2B SaaS | Canonical retrieval doc for the SaaS prompt; Videodeck sells shoots, not $2–3k/mo editing subs — "we cover the subscription tier" pitch | Outreach |
+| **Penji / ManyPixels** (Superside-alternatives lists) | Superside-alternatives | Design-only subscriptions that need a video-specialist entry to look complete — classic partner-swap (you reciprocate in your design-subscription content) | Swap |
+| **Vizard.ai blog** ("Best VE Tools for LinkedIn") | founder LinkedIn | #1 retrieval doc for the prompt; software company (complementary) whose users outgrow DIY — pitch a "when to use a done-for-you service" section. Thinnest SERP, purest buyer intent in the study | Outreach |
+| **capturevideoandmarketing.com** | cost/outsourcing + unlimited | One outreach unlocks two retrieval docs (cost-to-hire guide + top-7-unlimited list); local shoot company, non-competing | Outreach |
+| **Pixflow pricing guide** | retainer/pricing | Highest-authority non-competitor pricing doc; goal = get "$2–3k/mo dedicated-editor subscriptions (e.g. Pixel8)" named as the benchmark — inserts you into the exact sentence AI answers reuse | Outreach |
+| **fueler.io** (city listicles) | city prompts | **Confirmed paid guest-post route** (write-for-fueler page) | Small $ |
+| **Vidpros review request** | multiple | They review every rival ("Honest [X] Review") — a review request gets you a citation page even on a competitor domain | Ask |
+
+### 3.2 Review-count benchmark (what "enough reviews" means)
+
+| Company | Trustpilot | G2 | Clutch |
+|---|---|---|---|
+| Superside | ~386 (4★) | 122 (4.5★) | — |
+| beCreatives | 119 (4★) | 38 (4.6★) | — |
+| Tasty Edits | ~53–64 | 7 (5★) | — |
+| Vidpros | 27 (4★) | ~0 | low |
+| Increditors | 6 | 0 | 11 (4.9★) |
+| VidChops | none | none | none |
+
+**Targets to lead the non-Superside pack: Trustpilot 120+, G2 40+, Clutch 12–15.** The Clutch number is the striking one — 15 verified reviews plausibly wins the post-production category and every city page. Also instructive: Increditors dominates retrieval pools with only 17 total reviews across platforms — **listicle placement drives most retrieval; reviews matter specifically for the directory-ranked pages** (Clutch, Sortlist, G2). Do both, but sequence placements first.
+
+### 3.3 Best-ROI sequence (from the benchmark)
+
+1. startupresources.io submission (free, day 1)
+2. Review sprint toward Trustpilot 120 / G2 40 / Clutch 15
+3. Launch referral/affiliate program → Dreamgrow + Hatchwise pitches
+4. Penji/ManyPixels partner-swaps (Superside-alternatives pools)
+5. Vizard.ai placement (founder-LinkedIn prompt — thinnest SERP, purest intent)
 
 ## 4. Query fan-out maps
 
