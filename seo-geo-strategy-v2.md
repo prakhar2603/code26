@@ -30,7 +30,57 @@ Given ~80% of on-page work is done, the marginal client comes from four places, 
 
 ## 2. Off-page corroboration plan
 
-*(populated from citation-benchmark + playbook research — see §2.1–2.4)*
+### 2.1 Review engine (highest impact-per-hour; profiles are claimed, reviews are the missing input)
+
+**Clutch first.** Reviews are worth **half of Clutch's Ability-to-Deliver ranking score**, and recency is explicit in their algorithm (reviews older than 2 years decay). Mechanics that matter for you specifically:
+- Your retainers are under the $25k single-project threshold → the **free online form** (10–15 min, client self-serve, verified in ~2 days) is the right vehicle. The phone-interview route is gated behind paid Clutch products — you don't need it.
+- Clutch explicitly permits emailing clients your custom review link.
+- **Ask clients who will state a budget figure** — stated budget is a scoring input — and prioritize recognizable company names.
+- Benchmark: category leaders have ~170 reviews, but most listed firms have 10–50, and in the post-production/editing niche competitors have ≤11 (Increditors) — **12–15 verified reviews plausibly wins the category; 25–40 over 12 months puts you top-tier on every relevant page.**
+
+**G2 second (the AI-citation play).** G2 is the **#4 most-cited source on ChatGPT** and the only B2B marketplace in the top 10. In creative services the bar is low — Superside leads the category with only ~111–122 reviews; **20–30 makes you a visible contender**. Mechanics: business-email + LinkedIn verification; **incentives are allowed** if you pay for the act of reviewing (never the rating), disclose it, and pay after moderation — $25 gift cards are the market standard. Evidence says recency + specificity beat raw count: an active last-12-months profile outperforms a large stale one.
+
+**Trustpilot as a trickle.** Incentives are **totally prohibited** and invitations must go to all customers neutrally (cherry-picking is itself a violation). Value = star-rich snippet on your branded SERP (the last click of AI-originated deals). Batch-invite everyone, never incentivize.
+
+**Cadence for a 2-person team:** 2–3 Clutch + 1–2 G2 reviews/month, sustained — beats a blitz because both Clutch's algorithm and LLM citation weight recency. With 100+ clients, ask at natural high points: after a hit video, at renewal, at a view-count milestone.
+
+### 2.2 Listicle & retrieval-pool placements
+
+Run the §3.1 door list as a pipeline (free/transactional first): startupresources.io submission → affiliate program → Dreamgrow/Hatchwise → Penji/ManyPixels swaps → Videodeck, Vizard, Pixflow, capturevideoandmarketing outreach → fueler.io paid city posts → Vidpros review request. Each placement should push your canonical fact string (see 2.3) so every third-party description matches.
+
+### 2.3 Entity consistency + the name-collision problem (one-time, ~2 days, urgent)
+
+Evidence: when an entity's descriptions vary across sources, AI systems assign low confidence to its mentions and **filter them out during answer generation** — consistency is a prerequisite for being cited at all. And you have a real collision problem:
+
+- **Google Pixel 8** floods "pixel 8 video editing" queries. Unwinnable head-on — never appear as bare "Pixel8."
+- **Pixel 8 Productions Ltd** — a UK event-production company at **pixel8productions.com, one character from your domain**, same industry adjacency, active socials. This is the dangerous one: an LLM disambiguating "Pixel8 video production" can genuinely conflate you.
+
+Playbook:
+1. **Canonical string everywhere, verbatim:** "Pixel8 Production — done-for-you B2B video editing subscription. Dedicated editor, 48-hour turnaround, from ~$2k/month." Use the full qualifier "Pixel8 Production," never bare "Pixel8," in every bio, byline, podcast intro, directory listing.
+2. Apply it across: LinkedIn company page, Prakhar's LinkedIn headline, Crunchbase, Wellfound, Product Hunt, Google Business Profile, X, YouTube About, Instagram/Facebook, and every directory bio (Clutch, G2, Capterra, DesignRush, Sortlist, ProductionHub, Trustpilot).
+3. **Organization JSON-LD with `@id` + `sameAs` array** enumerating every profile; create a Wikidata item and include its URI. Claim the Knowledge Panel via Search Console once it appears (~3–6 months after signals align).
+
+### 2.4 Digital PR, Reddit, YouTube (the compounding layer)
+
+**Expert-quote stack (free, ~2 hrs/week):** HARO is dead (Connectively shut Dec 2024; the HARO brand relaunched under Featured.com). The 2026 stack for a small founder: **Help a B2B Writer** (free, B2B-only, best response rates — your exact fit) + **Featured.com free tier** + **Source of Sources** (free, by HARO's founder). Add Qwoted Pro ($99/mo, 70%+ of queries from DR80+ pubs) only after free placements prove out. Benchmark hit rate ~14% of pitches.
+
+**Podcast guesting (1 pitch batch/month):** target mid-size shows (1K–25K listeners) with agency-owner/B2B-marketer audiences — e.g. The Marketing Agency Show, B2B Marketing Unlocked. The angle that gets booked: **"what 240M views across 650 B2B projects taught us"** — proprietary operational data, not a service pitch. Transcripts get crawled and feed the entity.
+
+**Reddit (2 hrs/week):** #2 most-cited domain in Google AI Overviews. Discovery recipe (run in a normal browser — Reddit blocks research tools): Google `best video editing service site:reddit.com`, `outsource video editing site:reddit.com`, `"white label video editing" site:reddit.com`, and per-subreddit variants for r/NewTubers, r/VideoEditing, r/agency, r/Entrepreneur, r/podcasting, r/SaaS. The top 3–5 results per query are the exact threads AI engines pull from; prioritize threads <2 years old with 10+ comments (65% of AI bot hits target content <1 year old). Founder-flagged account, genuinely useful comparative answers including competitors, always disclosed. Undisclosed shilling is the #1 way this channel gets burned.
+
+**YouTube (2 videos/month, repurposed from existing posts):** #1 cited domain in AI Overviews (~29.5%). AI reads **titles, descriptions, chapters, and transcripts — not the video** — so metadata is the entire game. Convert your existing pricing-review and comparison posts (they already win in search) into chaptered videos: "Video Editing Subscription Pricing Explained (2026): What $2–3k/Month Actually Gets You," "Superside vs Pixel8 Production vs [X]: Honest Comparison," "We Edited 650 Videos for B2B Brands — What Actually Drives Views." ChatGPT is ~3x likelier to cite YouTube for instructional content; AI Overviews lean on it for review/comparison/pricing queries — exactly your formats.
+
+### 2.5 The 90-day off-page cadence (everything above, sequenced)
+
+| When | Action | Owner-hours |
+|---|---|---|
+| Week 1 | startupresources.io submission · entity-consistency pass + canonical string · Organization schema + sameAs + Wikidata | ~2 days one-time |
+| Weeks 1–2 | Launch review engine: first 3 Clutch asks (budget-stating clients) + 2 G2 asks ($25 disclosed) + Trustpilot batch invite | 3–4 hrs |
+| Weeks 2–4 | Affiliate/referral program live → Dreamgrow + Hatchwise pitches · Penji/ManyPixels swap outreach | 4–6 hrs |
+| Weeks 3–6 | Videodeck, Vizard, Pixflow, capturevideoandmarketing, fueler.io placements · Vidpros review request | 6–8 hrs |
+| Ongoing weekly | 2 hrs expert-quote stack · 2 hrs Reddit threads · review asks at client high points | ~5 hrs/wk |
+| Monthly | 2 YouTube videos from existing posts · 1 podcast pitch batch · 2–3 Clutch + 1–2 G2 reviews land | ~2 days/mo |
+| Day 90 check | Placements live in ≥5 retrieval-pool docs · Clutch ≥12 · G2 ≥10 · money-prompt citations trending in Clarity · **discovery-call source notes mention AI/search** | — |
 
 ## 3. Competitor AI-citation benchmark
 
