@@ -196,3 +196,37 @@ Note on your 100-impressions-2-clients example: that math means **branded and ne
 2. **Clarity AI-visibility export** — cited URLs + grounding queries: enables the GEO-asset exemption list and money-prompt tagging.
 3. **`/sitemap.xml` URL list** (337 URLs): enables cluster mapping without scraping.
 4. **Discovery-call source notes** (even informal, last 2–3 months): calibrates which clusters actually produce clients, so §1 priorities get re-weighted by revenue rather than by SERP logic.
+
+---
+
+## 8. The definitive top-10 lists
+
+Selection criterion: probability of producing a discovery call per unit of effort (buyer intent × winnability × existing assets).
+
+### Google keywords
+1. white label video editing — last-mile push on existing pos 6–9 foothold
+2. white label video editing partner for agencies — same page post-retitle
+3. video editing retainer — very weak SERP, agency vocabulary
+4. superside alternatives (video) — budget-in-hand switchers, zero video entrants
+5. best video editing service for b2b saas — ICP head term, thin pool
+6. in-house video editor vs outsourcing — decision query, weak SERP
+7. how much does video editing cost (B2B) — retitle existing "marketing" post
+8. video editing service for startups — already ranks; defend
+9. outsource video editing — funnel feeder, weak SERP
+10. podcast clipping service (human/done-for-you) — dodges the AI-tool SERP
+
+Excluded on purpose: bare "video editing services/subscription" head terms — GSC (pos ~24) and validated finding #1 mark them as volume traps.
+
+### LLM prompts
+1. "Best white label video editing partner for my agency" — already retrieved; defend
+2. "Superside too expensive — cheaper video alternatives?" — add video-modifier alternatives page
+3. "Best video editing service for B2B SaaS marketing teams" — modifier-rule win; widen corroboration
+4. "I need 8–10 videos edited per month — what service?" — volume modifier unanswered anywhere
+5. "Best done-for-you subscription with a dedicated editor" — retitle for modifier co-occurrence
+6. "Hire in-house editor or outsource?" — shared asset with keyword #6
+7. "Webinars/podcast → weekly LinkedIn clips — who does this?" — biggest gap, core ICP, pool is all AI tools
+8. "How much should video editing cost for a B2B company?" — retitle + open pricing
+9. "Best editing service for founder-led LinkedIn content" — no incumbent; Vizard placement
+10. "Pixel8 Production review / pricing" — branded last-click of every AI-originated deal
+
+7 of 10 LLM prompts share an asset with a Google keyword: ~8 pages + ~10 placements service both lists.
