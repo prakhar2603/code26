@@ -1,0 +1,40 @@
+/* ============================================================================
+   CLIENT BRAND OVERRIDES
+   Load this AFTER a style's tokens.css. It only re-points the semantic tokens,
+   so the style's layout and motion stay intact while colors and type change.
+
+   The names below follow the student-kit style-library contract
+   (--bg / --fg / --accent / --font-display / --font-body). For a style that
+   uses other names, map them at the bottom in the "style-specific" block.
+   ============================================================================ */
+
+/* Google Fonts import for browser preview. HyperFrames embeds fonts by name at render. */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+
+:root {
+  /* --- brand palette ------------------------------------------------------ */
+  --brand-bg:        #ffffff;
+  --brand-fg:        #111111;
+  --brand-primary:   #2f6bff;
+  --brand-secondary: #ffb020;
+  --brand-alert:     #e5484d;
+
+  /* --- semantic tokens every style reads ---------------------------------- */
+  --bg:     var(--brand-bg);
+  --fg:     var(--brand-fg);
+  --accent: var(--brand-primary);
+  --muted:  color-mix(in srgb, var(--brand-fg) 55%, transparent);
+
+  /* --- type --------------------------------------------------------------- */
+  --font-display: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-body:    "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-label:   var(--font-body);
+
+  /* --- style-specific mappings (edit per base style) ---------------------- */
+  /* student-kit vox-explainer: */
+  --paper:  var(--brand-bg);
+  --ink:    var(--brand-fg);
+  --yellow: var(--brand-primary);  /* its highlight token */
+  --red:    var(--brand-alert);
+  --orange: var(--brand-secondary);
+}
